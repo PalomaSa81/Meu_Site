@@ -1,0 +1,85 @@
+#linkedin {
+    height:10vh;
+    width: 10vh;
+    position: fixed;
+    top: 75%;
+    right: 3%;
+    border-radius: 50%;
+}
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+  }
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  color: yellow; /* Cor do link quando o mouse passa por cima */
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  right: 50px;
+  width: 100%;
+  background: #1f5ba9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 10px;
+  margin-right: 50px;
+}
+.menu li a {
+
+}
+
+h1 {
+  text-align: center;
+  margin-top: 120px;
+  color: #1f5ba9;
+}
+h2, p {
+  text-align: center;
+  color: #1f5ba9;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin-top: 70px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.flex > div {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+h3 {
+  text-align: center;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.box > div {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
